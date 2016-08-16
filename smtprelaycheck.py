@@ -29,6 +29,6 @@ if ("220" in answer):
 	# if code 250 print results
             print "[+] The target looks like it is vulenarble to an open relay attack"
 	else:
-            print "[-] The target doesn't vulnerable to an open relay attack "
+            print "[-] The target doesn't look vulnerable to an open relay attack "
 else: # If we dont get a code 220 
-    print "[-]Port is closed/Filtered"
+    print "[-] Looks like the port maybe closed/Filtered"
